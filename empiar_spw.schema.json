@@ -1,0 +1,702 @@
+{
+  "$schema": "https://empiar.org/spw_schema#",
+  "type": "object",
+  "properties": {
+    "user": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "name",
+        "email"
+      ]
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "imagingmethod": {
+          "type": "string"
+        },
+        "studydescription": {
+          "type": "string"
+        },
+        "biologicalentity": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "name",
+        "imagingmethod",
+        "studydescription",
+        "biologicalentity"
+      ]
+    },
+    "data": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "reagentlist": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "reagentdetail": {
+                      "type": "object",
+                      "properties": {
+                        "reagent": {
+                          "type": "string"
+                        },
+                        "solvent": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "reagent",
+                        "solvent"
+                      ]
+                    },
+                    "concentrationdetails": {
+                      "type": "object",
+                      "properties": {
+                        "concentration": {
+                          "type": "string"
+                        },
+                        "concentrationunits": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "concentration",
+                        "concentrationunits"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "reagentdetail",
+                    "concentrationdetails"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "reagentdetail": {
+                      "type": "object",
+                      "properties": {
+                        "reagent": {
+                          "type": "string"
+                        },
+                        "solvent": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "reagent",
+                        "solvent"
+                      ]
+                    },
+                    "concentrationdetails": {
+                      "type": "object",
+                      "properties": {
+                        "concentration": {
+                          "type": "string"
+                        },
+                        "concentrationunits": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "concentration",
+                        "concentrationunits"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "reagentdetail",
+                    "concentrationdetails"
+                  ]
+                }
+              ]
+            },
+            "ph": {
+              "type": "integer"
+            },
+            "temperature": {
+              "type": "object",
+              "properties": {
+                "temperature": {
+                  "type": "integer"
+                },
+                "temperatureunit": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "temperature",
+                "temperatureunit"
+              ]
+            },
+            "duration": {
+              "type": "object",
+              "properties": {
+                "duration": {
+                  "type": "integer"
+                },
+                "durationunit": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "duration",
+                "durationunit"
+              ]
+            },
+            "repeats": {
+              "type": "integer"
+            },
+            "notes": {
+              "type": "string"
+            },
+            "safetynotes": {
+              "type": "string"
+            },
+            "instrument": {
+              "type": "object",
+              "properties": {
+                "instrumentname": {
+                  "type": "string"
+                },
+                "instrumentwattage": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "instrumentname",
+                "instrumentwattage"
+              ]
+            },
+            "isundervaccum": {
+              "type": "boolean"
+            },
+            "instrumentwattage": {
+              "type": "string"
+            },
+            "ordernumber": {
+              "type": "integer"
+            },
+            "chamberhumidity": {
+              "type": "integer"
+            },
+            "chambertemperature": {
+              "type": "object",
+              "properties": {
+                "temperature": {
+                  "type": "integer"
+                },
+                "temperatureunit": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "temperature",
+                "temperatureunit"
+              ]
+            },
+            "cryogentemperature": {
+              "type": "object",
+              "properties": {
+                "temperature": {
+                  "type": "integer"
+                },
+                "temperatureunit": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "temperature",
+                "temperatureunit"
+              ]
+            },
+            "fillmedium": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "fillmediumdetail": {
+                      "type": "object",
+                      "properties": {
+                        "reagent": {
+                          "type": "string"
+                        },
+                        "solvent": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "reagent",
+                        "solvent"
+                      ]
+                    },
+                    "concentrationdetails": {
+                      "type": "object",
+                      "properties": {
+                        "concentration": {
+                          "type": "string"
+                        },
+                        "concentrationunits": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "concentration",
+                        "concentrationunits"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "fillmediumdetail",
+                    "concentrationdetails"
+                  ]
+                }
+              ]
+            },
+            "coatingmedium": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "coatingmediumdetail": {
+                      "type": "object",
+                      "properties": {
+                        "reagent": {
+                          "type": "string"
+                        },
+                        "solvent": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "reagent",
+                        "solvent"
+                      ]
+                    },
+                    "concentrationdetails": {
+                      "type": "object",
+                      "properties": {
+                        "concentration": {
+                          "type": "string"
+                        },
+                        "concentrationunits": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "concentration",
+                        "concentrationunits"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "coatingmediumdetail",
+                    "concentrationdetails"
+                  ]
+                }
+              ]
+            },
+            "infiltrationlist": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "count": {
+                      "type": "integer"
+                    },
+                    "concentrationdetails": {
+                      "type": "object",
+                      "properties": {
+                        "concentration": {
+                          "type": "string"
+                        },
+                        "concentrationunits": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "concentration",
+                        "concentrationunits"
+                      ]
+                    },
+                    "duration": {
+                      "type": "object",
+                      "properties": {
+                        "duration": {
+                          "type": "integer"
+                        },
+                        "durationunit": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "duration",
+                        "durationunit"
+                      ]
+                    },
+                    "starttemperature": {
+                      "type": "object",
+                      "properties": {
+                        "starttemperature": {
+                          "type": "integer"
+                        },
+                        "temperatureunit": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "starttemperature",
+                        "temperatureunit"
+                      ]
+                    },
+                    "endtemperature": {
+                      "type": "object",
+                      "properties": {
+                        "starttemperature": {
+                          "type": "integer"
+                        },
+                        "temperatureunit": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "starttemperature",
+                        "temperatureunit"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "count",
+                    "concentrationdetails",
+                    "duration",
+                    "starttemperature",
+                    "endtemperature"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "count": {
+                      "type": "integer"
+                    },
+                    "concentrationdetails": {
+                      "type": "object",
+                      "properties": {
+                        "concentration": {
+                          "type": "string"
+                        },
+                        "concentrationunits": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "concentration",
+                        "concentrationunits"
+                      ]
+                    },
+                    "duration": {
+                      "type": "object",
+                      "properties": {
+                        "duration": {
+                          "type": "integer"
+                        },
+                        "durationunit": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "duration",
+                        "durationunit"
+                      ]
+                    },
+                    "starttemperature": {
+                      "type": "object",
+                      "properties": {
+                        "starttemperature": {
+                          "type": "integer"
+                        },
+                        "temperatureunit": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "starttemperature",
+                        "temperatureunit"
+                      ]
+                    },
+                    "endtemperature": {
+                      "type": "object",
+                      "properties": {
+                        "starttemperature": {
+                          "type": "integer"
+                        },
+                        "temperatureunit": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "starttemperature",
+                        "temperatureunit"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "count",
+                    "concentrationdetails",
+                    "duration",
+                    "starttemperature",
+                    "endtemperature"
+                  ]
+                }
+              ]
+            },
+            "warmingprocedure": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "temperature": {
+                      "type": "integer"
+                    },
+                    "starttemperature": {
+                      "type": "object",
+                      "properties": {
+                        "starttemperature": {
+                          "type": "integer"
+                        },
+                        "temperatureunit": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "starttemperature",
+                        "temperatureunit"
+                      ]
+                    },
+                    "endtemperature": {
+                      "type": "object",
+                      "properties": {
+                        "starttemperature": {
+                          "type": "integer"
+                        },
+                        "temperatureunit": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "starttemperature",
+                        "temperatureunit"
+                      ]
+                    },
+                    "duration": {
+                      "type": "object",
+                      "properties": {
+                        "duration": {
+                          "type": "integer"
+                        },
+                        "durationunit": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "duration",
+                        "durationunit"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "temperature",
+                    "starttemperature",
+                    "endtemperature",
+                    "duration"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "temperature": {
+                      "type": "integer"
+                    },
+                    "starttemperature": {
+                      "type": "object",
+                      "properties": {
+                        "starttemperature": {
+                          "type": "integer"
+                        },
+                        "temperatureunit": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "starttemperature",
+                        "temperatureunit"
+                      ]
+                    },
+                    "endtemperature": {
+                      "type": "object",
+                      "properties": {
+                        "starttemperature": {
+                          "type": "integer"
+                        },
+                        "temperatureunit": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "starttemperature",
+                        "temperatureunit"
+                      ]
+                    },
+                    "duration": {
+                      "type": "object",
+                      "properties": {
+                        "duration": {
+                          "type": "integer"
+                        },
+                        "durationunit": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "duration",
+                        "durationunit"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "temperature",
+                    "starttemperature",
+                    "endtemperature",
+                    "duration"
+                  ]
+                }
+              ]
+            },
+            "fixationmedium": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "reagentdetail": {
+                      "type": "object",
+                      "properties": {
+                        "reagent": {
+                          "type": "string"
+                        },
+                        "solvent": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "reagent",
+                        "solvent"
+                      ]
+                    },
+                    "concentrationdetails": {
+                      "type": "object",
+                      "properties": {
+                        "concentration": {
+                          "type": "string"
+                        },
+                        "concentrationunits": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "concentration",
+                        "concentrationunits"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "reagentdetail",
+                    "concentrationdetails"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "reagentdetail": {
+                      "type": "object",
+                      "properties": {
+                        "reagent": {
+                          "type": "string"
+                        },
+                        "solvent": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "reagent",
+                        "solvent"
+                      ]
+                    },
+                    "concentrationdetails": {
+                      "type": "object",
+                      "properties": {
+                        "concentration": {
+                          "type": "string"
+                        },
+                        "concentrationunits": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "concentration",
+                        "concentrationunits"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "reagentdetail",
+                    "concentrationdetails"
+                  ]
+                }
+              ]
+            },
+            "method": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "notes",
+            "ordernumber",
+            "method"
+          ]
+        },
+      ]
+    },
+    "entryid": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "user",
+    "metadata",
+    "data",
+    "entryid"
+  ]
+}
