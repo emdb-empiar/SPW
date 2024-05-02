@@ -1,1 +1,496 @@
-{"data":[{"method":"CHEMICAL FIXATION","ph":"2","temperature":{"value":"25","units":"C"},"duration":{"value":"16","units":"HR"},"repeats":"1","notes":"Test Notes","safety":"Test Notes         ","medium_list":{"medium":[{"chemical":"Acetone","solvent":"Water","concentration":{"value":"10","units":"%"}},{"chemical":"Acrolein","solvent":"Water","concentration":{"value":"20","units":"%"}}]},"reprKey":"VmimP"},{"method":"PLUNGE FREEZING","instrument":"Test Instrument","instrumentwatttage":"10","instrumentramp":"10","instrumentspeed":"20","chamber_humitdity":"1","chamber_temperature":{"value":"25","units":"C"},"cryogen_temperature":{"value":"25","units":"C"},"notes":"Test Notes ","safety":"Test Notes                     ","cryogen_composition_list":{"cryogen_composition":[{"material":"Material 1","proportion":"10"},{"material":"Material 2","proportion":"20"}]},"reprKey":"LktE3"},{"method":"HIGH PRESSURE FREEZING","pressure":{"value":"20","units":"bar"},"duration":{"value":"30","units":"MIN"},"bore_diameter":"10","bore_depth":"10","instrument":"Test Instrument","instrumentwatttage":"10","instrumentramp":"10","instrumentspeed":"10","notes":"Test Notes              ","safety":"Test Notes","fill_medium_list":{"medium":[{"chemical":"Acetone","solvent":"Water","concentration":{"value":"10","units":"%"}},{"chemical":"Acrolein","solvent":"Water","concentration":{"value":"20","units":"%"}}]},"coating_medium_list":{"medium":[{"chemical":"Acetone","solvent":"Water","concentration":{"value":"10","units":"%"}},{"chemical":"Acrolein","solvent":"Water","concentration":{"value":"20","units":"%"}}]},"reprKey":"rK4hS"},{"method":"STAINING","ph":"3","temperature":{"value":"25","units":"C"},"duration":{"value":"16","units":"HR"},"notes":"Test Notes","safety":"Test Notes","medium_list":{"medium":[{"chemical":"Acetone","solvent":"Water","concentration":{"value":"10","units":"%"}},{"chemical":"Acrolein","solvent":"Water","concentration":{"value":"20","units":"%"}}]},"reprKey":"uULan"},{"method":"DEHYDRATION","medium1":"Medium 1","medium2":"Medium 2","instrument":"Test Instrument","temperature":{"value":"10","units":"C"},"notes":"Test Notes","safety":"Test Notes     ","reagent_list":{"medium":[{"count":"1","concentration":{"value":"10","units":"%"},"duration":{"value":"10","units":"MIN"}},{"count":"2","concentration":{"value":"20","units":"%"},"duration":{"value":"20","units":"MIN"}}]},"reprKey":"uh8nl"},{"method":"RINSING","ph":"3","temperature":{"value":"25","units":"C"},"duration":{"value":"16","units":"HR"},"repeats":"3","notes":"Test Notes","safety":"Test Notes","medium_concentration_list":{"medium":[{"chemical":"Acetone","solvent":"Water","concentration":{"value":"10","units":"%"}}]},"reprKey":"n5nWY"},{"method":"INFILTRATION","instrument":"Test Instrument","instrumentwatttage":"10","instrumentramp":"10","instrumentspeed":"10","medium1":"Medium 1","notes":"Test Notes","safety":"Test Notes","final_medium_list":{"medium":[{"chemical":"Acetone","solvent":"Water","weight":{"value":"10","units":"mg"}},{"chemical":"Acrolein","solvent":"Water","weight":{"value":"20","units":"mg"}}]},"infiltration_procedure_list":{"infiltration_procedure":[{"count":"1","concentration":{"value":"20","units":"%"},"duration":{"value":"16","units":"HR"},"start_temperature":{"value":"25","units":"C"},"end_temperature":{"value":"25","units":"C"}},{"count":"3","concentration":{"value":"30","units":"%"},"duration":{"value":"16","units":"HR"},"start_temperature":{"value":"25","units":"C"},"end_temperature":{"value":"25","units":"C"}}]},"reprKey":"dFXRZ"},{"method":"INCUBATION","temperature":{"value":"4","units":"C"},"duration":{"value":"16","units":"HR"},"concentration":{"value":"4","units":"%"},"notes":"Test Notes","safety":"Test Notes","medium_list":{"medium":[{"chemical":"Acetone","solvent":"Water","concentration":{"value":"10","units":"%"}},{"chemical":"Acrolein","solvent":"Water","concentration":{"value":"20","units":"%"}}]},"reprKey":"gQsgT"},{"method":"OVEN CURING","instrument":"Test Instrument","instrumentwatttage":"10","instrumentramp":"10","instrumentspeed":"10","notes":"Test Notes","safety":"Test Notes","warming_procedure_list":{"warming_procedure":[{"start_temperature":{"value":"25","units":"C"},"end_temperature":{"value":"25","units":"C"},"duration":{"value":"16","units":"HR"}},{"start_temperature":{"value":"25","units":"C"},"end_temperature":{"value":"25","units":"C"},"duration":{"value":"16","units":"HR"}}]},"reprKey":"PTfCt"},{"method":"UV POLYMERISATION","instrument":"Test Instrument","instrumentwatttage":"10","instrumentramp":"10","instrumentspeed":"10","notes":"Test Notes","safety":"Test Notes","warming_procedure_list":{"warming_procedure":[{"start_temperature":{"value":"25","units":"C"},"end_temperature":{"value":"25","units":"C"},"duration":{"value":"16","units":"HR"}},{"start_temperature":{"value":"25","units":"C"},"end_temperature":{"value":"25","units":"C"},"duration":{"value":"16","units":"HR"}}]},"reprKey":"Wt8U8"},{"method":"FREEZE SUBSTITUTION","instrument":"Test Insrument","instrumentwatttage":"10","instrumentramp":"10","instrumentspeed":"10","notes":"Test Notes","safety":"Test Notes","fixation_medium_list":{"medium":[{"chemical":"Acetone","solvent":"Water","concentration":{"value":"10","units":"%"}},{"chemical":"Acrolein","solvent":"Water","concentration":{"value":"20","units":"%"}}]},"warming_procedure_list":{"warming_procedure":[{"temperatureramp":"10","start_temperature":{"value":"25","units":"C"},"end_temperature":{"value":"25","units":"C"},"duration":{"value":"16","units":"HR"}},{"temperatureramp":"20","start_temperature":{"value":"25","units":"C"},"end_temperature":{"value":"25","units":"C"},"duration":{"value":"16","units":"HR"}}]},"reprKey":"6D2pH"}],"name":"Test Sample Prep Protocol","imagingMethod":"FIB-SEM","biologicalEntity":"Tissue","studyDescription":"High contrast protocol for tissues manual."}
+{
+  "data": [
+    {
+      "method": "CHEMICAL FIXATION",
+      "ph": "2",
+      "temperature": {
+        "value": "25",
+        "units": "C"
+      },
+      "duration": {
+        "value": "16",
+        "units": "HR"
+      },
+      "repeats": "1",
+      "notes": "Test Notes",
+      "safety": "Test Notes         ",
+      "medium_list": {
+        "medium": [
+          {
+            "chemical": "Acetone",
+            "solvent": "Water",
+            "concentration": {
+              "value": "10",
+              "units": "%"
+            }
+          },
+          {
+            "chemical": "Acrolein",
+            "solvent": "Water",
+            "concentration": {
+              "value": "20",
+              "units": "%"
+            }
+          }
+        ]
+      },
+      "reprKey": "VmimP"
+    },
+    {
+      "method": "PLUNGE FREEZING",
+      "instrument": "Test Instrument",
+      "instrumentwatttage": "10",
+      "instrumentramp": "10",
+      "instrumentspeed": "20",
+      "chamber_humitdity": "1",
+      "chamber_temperature": {
+        "value": "25",
+        "units": "C"
+      },
+      "cryogen_temperature": {
+        "value": "25",
+        "units": "C"
+      },
+      "notes": "Test Notes ",
+      "safety": "Test Notes                     ",
+      "cryogen_composition_list": {
+        "cryogen_composition": [
+          {
+            "material": "Material 1",
+            "proportion": "10"
+          },
+          {
+            "material": "Material 2",
+            "proportion": "20"
+          }
+        ]
+      },
+      "reprKey": "LktE3"
+    },
+    {
+      "method": "HIGH PRESSURE FREEZING",
+      "pressure": {
+        "value": "20",
+        "units": "bar"
+      },
+      "duration": {
+        "value": "30",
+        "units": "MIN"
+      },
+      "bore_diameter": "10",
+      "bore_depth": "10",
+      "instrument": "Test Instrument",
+      "instrumentwatttage": "10",
+      "instrumentramp": "10",
+      "instrumentspeed": "10",
+      "notes": "Test Notes              ",
+      "safety": "Test Notes",
+      "fill_medium_list": {
+        "medium": [
+          {
+            "chemical": "Acetone",
+            "solvent": "Water",
+            "concentration": {
+              "value": "10",
+              "units": "%"
+            }
+          },
+          {
+            "chemical": "Acrolein",
+            "solvent": "Water",
+            "concentration": {
+              "value": "20",
+              "units": "%"
+            }
+          }
+        ]
+      },
+      "coating_medium_list": {
+        "medium": [
+          {
+            "chemical": "Acetone",
+            "solvent": "Water",
+            "concentration": {
+              "value": "10",
+              "units": "%"
+            }
+          },
+          {
+            "chemical": "Acrolein",
+            "solvent": "Water",
+            "concentration": {
+              "value": "20",
+              "units": "%"
+            }
+          }
+        ]
+      },
+      "reprKey": "rK4hS"
+    },
+    {
+      "method": "STAINING",
+      "ph": "3",
+      "temperature": {
+        "value": "25",
+        "units": "C"
+      },
+      "duration": {
+        "value": "16",
+        "units": "HR"
+      },
+      "notes": "Test Notes",
+      "safety": "Test Notes",
+      "medium_list": {
+        "medium": [
+          {
+            "chemical": "Acetone",
+            "solvent": "Water",
+            "concentration": {
+              "value": "10",
+              "units": "%"
+            }
+          },
+          {
+            "chemical": "Acrolein",
+            "solvent": "Water",
+            "concentration": {
+              "value": "20",
+              "units": "%"
+            }
+          }
+        ]
+      },
+      "reprKey": "uULan"
+    },
+    {
+      "method": "DEHYDRATION",
+      "medium1": "Medium 1",
+      "medium2": "Medium 2",
+      "instrument": "Test Instrument",
+      "temperature": {
+        "value": "10",
+        "units": "C"
+      },
+      "notes": "Test Notes",
+      "safety": "Test Notes     ",
+      "reagent_list": {
+        "medium": [
+          {
+            "count": "1",
+            "concentration": {
+              "value": "10",
+              "units": "%"
+            },
+            "duration": {
+              "value": "10",
+              "units": "MIN"
+            }
+          },
+          {
+            "count": "2",
+            "concentration": {
+              "value": "20",
+              "units": "%"
+            },
+            "duration": {
+              "value": "20",
+              "units": "MIN"
+            }
+          }
+        ]
+      },
+      "reprKey": "uh8nl"
+    },
+    {
+      "method": "RINSING",
+      "ph": "3",
+      "temperature": {
+        "value": "25",
+        "units": "C"
+      },
+      "duration": {
+        "value": "16",
+        "units": "HR"
+      },
+      "repeats": "3",
+      "notes": "Test Notes",
+      "safety": "Test Notes",
+      "medium_concentration_list": {
+        "medium": [
+          {
+            "chemical": "Acetone",
+            "solvent": "Water",
+            "concentration": {
+              "value": "10",
+              "units": "%"
+            }
+          }
+        ]
+      },
+      "reprKey": "n5nWY"
+    },
+    {
+      "method": "INFILTRATION",
+      "instrument": "Test Instrument",
+      "instrumentwatttage": "10",
+      "instrumentramp": "10",
+      "instrumentspeed": "10",
+      "medium1": "Medium 1",
+      "notes": "Test Notes",
+      "safety": "Test Notes",
+      "final_medium_list": {
+        "medium": [
+          {
+            "chemical": "Acetone",
+            "solvent": "Water",
+            "weight": {
+              "value": "10",
+              "units": "mg"
+            }
+          },
+          {
+            "chemical": "Acrolein",
+            "solvent": "Water",
+            "weight": {
+              "value": "20",
+              "units": "mg"
+            }
+          }
+        ]
+      },
+      "infiltration_procedure_list": {
+        "infiltration_procedure": [
+          {
+            "count": "1",
+            "concentration": {
+              "value": "20",
+              "units": "%"
+            },
+            "duration": {
+              "value": "16",
+              "units": "HR"
+            },
+            "start_temperature": {
+              "value": "25",
+              "units": "C"
+            },
+            "end_temperature": {
+              "value": "25",
+              "units": "C"
+            }
+          },
+          {
+            "count": "3",
+            "concentration": {
+              "value": "30",
+              "units": "%"
+            },
+            "duration": {
+              "value": "16",
+              "units": "HR"
+            },
+            "start_temperature": {
+              "value": "25",
+              "units": "C"
+            },
+            "end_temperature": {
+              "value": "25",
+              "units": "C"
+            }
+          }
+        ]
+      },
+      "reprKey": "dFXRZ"
+    },
+    {
+      "method": "INCUBATION",
+      "temperature": {
+        "value": "4",
+        "units": "C"
+      },
+      "duration": {
+        "value": "16",
+        "units": "HR"
+      },
+      "concentration": {
+        "value": "4",
+        "units": "%"
+      },
+      "notes": "Test Notes",
+      "safety": "Test Notes",
+      "medium_list": {
+        "medium": [
+          {
+            "chemical": "Acetone",
+            "solvent": "Water",
+            "concentration": {
+              "value": "10",
+              "units": "%"
+            }
+          },
+          {
+            "chemical": "Acrolein",
+            "solvent": "Water",
+            "concentration": {
+              "value": "20",
+              "units": "%"
+            }
+          }
+        ]
+      },
+      "reprKey": "gQsgT"
+    },
+    {
+      "method": "OVEN CURING",
+      "instrument": "Test Instrument",
+      "instrumentwatttage": "10",
+      "instrumentramp": "10",
+      "instrumentspeed": "10",
+      "notes": "Test Notes",
+      "safety": "Test Notes",
+      "warming_procedure_list": {
+        "warming_procedure": [
+          {
+            "start_temperature": {
+              "value": "25",
+              "units": "C"
+            },
+            "end_temperature": {
+              "value": "25",
+              "units": "C"
+            },
+            "duration": {
+              "value": "16",
+              "units": "HR"
+            }
+          },
+          {
+            "start_temperature": {
+              "value": "25",
+              "units": "C"
+            },
+            "end_temperature": {
+              "value": "25",
+              "units": "C"
+            },
+            "duration": {
+              "value": "16",
+              "units": "HR"
+            }
+          }
+        ]
+      },
+      "reprKey": "PTfCt"
+    },
+    {
+      "method": "UV POLYMERISATION",
+      "instrument": "Test Instrument",
+      "instrumentwatttage": "10",
+      "instrumentramp": "10",
+      "instrumentspeed": "10",
+      "notes": "Test Notes",
+      "safety": "Test Notes",
+      "warming_procedure_list": {
+        "warming_procedure": [
+          {
+            "start_temperature": {
+              "value": "25",
+              "units": "C"
+            },
+            "end_temperature": {
+              "value": "25",
+              "units": "C"
+            },
+            "duration": {
+              "value": "16",
+              "units": "HR"
+            }
+          },
+          {
+            "start_temperature": {
+              "value": "25",
+              "units": "C"
+            },
+            "end_temperature": {
+              "value": "25",
+              "units": "C"
+            },
+            "duration": {
+              "value": "16",
+              "units": "HR"
+            }
+          }
+        ]
+      },
+      "reprKey": "Wt8U8"
+    },
+    {
+      "method": "FREEZE SUBSTITUTION",
+      "instrument": "Test Insrument",
+      "instrumentwatttage": "10",
+      "instrumentramp": "10",
+      "instrumentspeed": "10",
+      "notes": "Test Notes",
+      "safety": "Test Notes",
+      "fixation_medium_list": {
+        "medium": [
+          {
+            "chemical": "Acetone",
+            "solvent": "Water",
+            "concentration": {
+              "value": "10",
+              "units": "%"
+            }
+          },
+          {
+            "chemical": "Acrolein",
+            "solvent": "Water",
+            "concentration": {
+              "value": "20",
+              "units": "%"
+            }
+          }
+        ]
+      },
+      "warming_procedure_list": {
+        "warming_procedure": [
+          {
+            "temperatureramp": "10",
+            "start_temperature": {
+              "value": "25",
+              "units": "C"
+            },
+            "end_temperature": {
+              "value": "25",
+              "units": "C"
+            },
+            "duration": {
+              "value": "16",
+              "units": "HR"
+            }
+          },
+          {
+            "temperatureramp": "20",
+            "start_temperature": {
+              "value": "25",
+              "units": "C"
+            },
+            "end_temperature": {
+              "value": "25",
+              "units": "C"
+            },
+            "duration": {
+              "value": "16",
+              "units": "HR"
+            }
+          }
+        ]
+      },
+      "reprKey": "6D2pH"
+    }
+  ],
+  "name": "Test Sample Prep Protocol",
+  "imagingMethod": "FIB-SEM",
+  "biologicalEntity": "Tissue",
+  "studyDescription": "High contrast protocol for tissues manual."
+}
