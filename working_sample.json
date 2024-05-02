@@ -33,8 +33,7 @@
             }
           }
         ]
-      },
-      "reprKey": "VmimP"
+      }
     },
     {
       "method": "PLUNGE FREEZING",
@@ -64,8 +63,7 @@
             "proportion": "20"
           }
         ]
-      },
-      "reprKey": "LktE3"
+      }
     },
     {
       "method": "HIGH PRESSURE FREEZING",
@@ -124,8 +122,7 @@
             }
           }
         ]
-      },
-      "reprKey": "rK4hS"
+      }
     },
     {
       "method": "STAINING",
@@ -159,8 +156,7 @@
             }
           }
         ]
-      },
-      "reprKey": "uULan"
+      }
     },
     {
       "method": "DEHYDRATION",
@@ -198,8 +194,7 @@
             }
           }
         ]
-      },
-      "reprKey": "uh8nl"
+      }
     },
     {
       "method": "RINSING",
@@ -226,8 +221,7 @@
             }
           }
         ]
-      },
-      "reprKey": "n5nWY"
+      }
     },
     {
       "method": "INFILTRATION",
@@ -299,8 +293,7 @@
             }
           }
         ]
-      },
-      "reprKey": "dFXRZ"
+      }
     },
     {
       "method": "INCUBATION",
@@ -337,8 +330,7 @@
             }
           }
         ]
-      },
-      "reprKey": "gQsgT"
+      }
     },
     {
       "method": "OVEN CURING",
@@ -379,8 +371,7 @@
             }
           }
         ]
-      },
-      "reprKey": "PTfCt"
+      }
     },
     {
       "method": "UV POLYMERISATION",
@@ -421,8 +412,7 @@
             }
           }
         ]
-      },
-      "reprKey": "Wt8U8"
+      }
     },
     {
       "method": "FREEZE SUBSTITUTION",
@@ -485,8 +475,7 @@
             }
           }
         ]
-      },
-      "reprKey": "6D2pH"
+      }
     }
   ],
   "name": "Test Sample Prep Protocol",
